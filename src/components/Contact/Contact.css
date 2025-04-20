@@ -1,0 +1,28 @@
+.contact {
+  flex-direction: column;
+}
+.contact__number {
+  display: block;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: #555;
+  font-weight: bold;
+}
+.links{
+  color: bisque;
+}
+.contact__social{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: #555;
+  font-weight: bold;
+}
+.contact__social:hover {
+  color: #000;
+  text-decoration: underline;
+  cursor: pointer ;
+}
